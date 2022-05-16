@@ -24,5 +24,5 @@ docker_build ()
 # Run docker image
 docker_run ()
 {
-    docker run --privileged -it -v $DOCKER_DIR/../:/root ros_arm:1 /bin/bash
+    docker run --privileged -it -v $DOCKER_DIR/../../:/root ros_arm:1 /bin/bash
 }
